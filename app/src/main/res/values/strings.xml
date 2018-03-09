@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CadastrarContatoVolleySDM</string>
+    <string name="nome_do_contato">Nome do contato</string>
+    <string name="apelido_do_contato">Apelido do contato</string>
+    <string name="cadastrar">Cadastrar</string>
+</resources>

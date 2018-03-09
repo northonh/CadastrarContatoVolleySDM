@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Nome completo do novo contato -->
+    <EditText
+        android:id="@+id/et_nome_completo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_contato"/>
+
+    <!-- Apelido do novo contato -->
+    <EditText
+        android:id="@+id/et_apelido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/apelido_do_contato"/>
+
+    <!-- Botão de acesso ao Web Service -->
+    <Button
+        android:id="@+id/bt_cadastrar_novo_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cadastrarNovoContato"
+        android:text="@string/cadastrar"/>
+</LinearLayout>
